@@ -1,8 +1,12 @@
 import React from "react";
 function App() {
+  const stampa = () => {
+    console.log('stampa')
+  }
   return (
     <div>
       <h2>Ciao mondo</h2>
+      <button onClick={stampa}>cliccami</button>
     </div>
   )
 }
